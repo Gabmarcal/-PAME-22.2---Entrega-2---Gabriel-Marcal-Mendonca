@@ -1,0 +1,124 @@
+body {
+
+    margin:0;
+    padding:0;
+
+}
+
+.img1 {
+
+    width:49vw;
+    height: 100vh;
+
+}
+
+.img2 {
+
+    position: relative;
+    top: 75px;
+    right: 45px;
+    width:1.5vw;
+    height:3vh;
+
+}
+
+.img3 {
+
+    
+    width: 30vw;
+    height: 30vh;
+    position: relative;
+    right: 1450px;
+    top: 75px;
+
+}
+
+.container{
+
+    display: flex;
+    flex-direction: row;
+}
+
+input{
+
+    margin: 5px;
+    height: 3vh;
+    border-radius: 10px;
+
+}
+
+mark{
+
+    background-color: rgb(230, 171, 9);
+    font-size: 120%;
+
+}
+
+
+.big_box{
+
+    width: 45vw;
+    height: 100vh;
+    border-radius: 0;
+    margin: 50px;
+    padding: 0;
+
+    /* cores */
+
+    background-color: white;
+    border-color: white;
+    color: black;
+
+    /* FlexBox */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+
+}
+
+.mark_box{
+
+    width: 1.5vw;
+    height: 1.5vh;
+    border-radius: 0;
+    border: 2px solid gray;
+    margin: 5px;
+    padding: 0;
+
+    /* Cores */
+    background-color: white;
+    border-color: gray;
+    color: white;
+
+    /* FlexBox */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.short_box{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+
+}
+
+.button {
+
+    font-size: 200%;
+    margin: 35px;
+	background: #e89505;
+	color: white;
+    border-color: #e89505;
+	height: 50px;
+	width: 30vw;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+
+}
