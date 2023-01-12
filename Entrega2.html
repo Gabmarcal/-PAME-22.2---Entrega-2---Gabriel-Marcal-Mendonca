@@ -1,81 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
 
+<!--Metadados-->
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Recebimento_Conteúdo_Fluxo</title>
     <link rel="stylesheet" href="Entrega2.css">
+    <link rel="stylesheet" href="cssgram.min.css">
 </head>
 
+
+<!--Corpo do site-->
 <body>
-    <!-- 
-Bloco Inicial com dois blocos dentro, um no lado esquerdo (imagem) e outro na direita (texto e botões)    
-    -->
+
+<!--
+    Estrutura do corpo: bloco maior com dois blocos dentro, um no lado esquerdo (imagem) e outro na direita (texto e botões)    
+-->
     
     <div class="container">
-
-        <img class="img1" src="./Assets/Escritório.jfif"/>
-
-        <div class="big_box">
         
-            <h1 style = "font-family: verdana; font-size: 180%; text-align: left">Não vá embora agora!</h1>
+        <!--bloco com imagem do Escritório-->
+        <div class="big_box_esq">
+            <img class="img_Fluxo" src="./Assets/Logo Fluxo.webp"/>
+        </div>
+
+        <!--caixa da direita com elementos de texto, botão e checkbox-->
+        <div class="big_box_dir">
             
-            <p><mark>Preencha nosso formulário e receba conteúdos exclusivos para te ajudar com problemas relacionados à engenharia.</mark></p>
+            <!--Título-->
+            <h1 style = "font-family: Verdana, sans-serif; font-size: 300%; text-align: left">Não vá embora agora!</h1>
             
+            <!--Parágrafo-->
+            <p style="font-family: Arial,sans-serif;font-size: 130%;"><mark> Estou gostando bastante do PAME da fluxo, sinto que estou aprendendo bastante, conhecendo pessoas novas e melhorando minha capacidade de trabalho em grupo.</mark></p>
+            
+            <!--Inputs de texto-->
             <input type="text" placeholder="Nome *">
             <input type="text" placeholder="Email *">
 
-            <p style = "text-align: left; font-size: 120%"> Áreas de interesse </p>
+            <!--Parágrafo-->
+            <p style = "text-align: left; font-size: 130%"> Áreas de interesse </p>
+
+            
+            <!--Caixas Pequenas contendo um checkbox e um texto-->
 
             <div class="short_box">
-                <input type="checkbox" id="scales" name="scales" checked>
-                <label for="scales">Arquitetura e construção</label>
-            </div>
-
-            <div class="short_box">
-                <input type="checkbox" id="scales" name="scales" checked>
-                <label for="scales">Empreendedorismo e Startups</label>
-            </div>
-
-            <div class="short_box">
-                <input type="checkbox" id="scales" name="scales" checked>
-                <label for="scales">Energia e Sustentabilidade</label>
+                <input type="checkbox" id="scales" name="scales">
+                <label style = "font-family: Arial, sans serif" for="scales">Arquitetura e construção</label>
             </div>
             
             <div class="short_box">
-                <input type="checkbox" id="scales" name="scales" checked>
-                <label for="scales">Engenharia Química e Alimentos</label>
+                <input type="checkbox" id="scales" name="scales">
+                <label style = "font-family: Arial, sans serif" for="scales">Empreendedorismo e Startups</label>
             </div>
 
             <div class="short_box">
-                <input type="checkbox" id="scales" name="scales" checked>
-                <label for="scales">Engenharia UFRJ</label>
+                <input type="checkbox" id="scales" name="scales">
+                <label style = "font-family: Arial, sans serif" for="scales">Energia e Sustentabilidade</label>
+            </div>
+            
+            <div class="short_box">
+                <input class="markbox" type="checkbox" id="scales" name="scales">
+                <label style = "font-family: Arial, sans serif" for="scales">Engenharia Química e Alimentos</label>
             </div>
 
             <div class="short_box">
-                <input type="checkbox" id="scales" name="scales" checked>
-                <label for="scales">Gestão Empresarial</label>
+                <input type="checkbox" id="scales" name="scales">
+                <label style = "font-family: Arial, sans serif" for="scales">Engenharia UFRJ</label>
+            </div>
+
+            <div class="short_box">
+                <input type="checkbox" id="scales" name="scales">
+                <label style = "font-family: Arial, sans serif" for="scales">Gestão Empresarial</label>
             </div>
         
             <div class="short_box">
-                <input type="checkbox" id="scales" name="scales" checked>
-                <label for="scales">Projetos Mecânicos</label>
+                <input type="checkbox" id="scales" name="scales">
+                <label style = "font-family: Arial, sans serif" for="scales">Projetos Mecânicos</label>
             </div>
 
             <div class="short_box">
-                <input type="checkbox" id="scales" name="scales" checked>
-                <label for="scales">Tecnologia da Informação</label>
+                <input type="checkbox" id="scales" name="scales">
+                <label style = "font-family: Arial, sans serif" for="scales">Tecnologia da Informação</label>
             </div>
             
+            
+            <!--Botão TENHO INTERESSE-->
             <input type="button" class="button" style="text-align: center;" onclick="alert('Formulário foi enviado')" value="TENHO INTERESSE">
 
         </div>
-    
-        <img class="img2" src="./Assets/Ícone X.svg"/>
-
-        <img class="img3" src="./Assets/Logo Fluxo.webp"/>
+        
+        <!--Imagem do X-->
+        <img class="img_X" src="./Assets/Ícone X.svg"/>
 
     </div>
 

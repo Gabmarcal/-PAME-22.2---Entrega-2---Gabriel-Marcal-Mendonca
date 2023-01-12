@@ -1,3 +1,4 @@
+/*Customização do corpo*/
 body {
 
     margin:0;
@@ -5,40 +6,7 @@ body {
 
 }
 
-.img1 {
-
-    width:49vw;
-    height: 100vh;
-
-}
-
-.img2 {
-
-    position: relative;
-    top: 75px;
-    right: 45px;
-    width:1.5vw;
-    height:3vh;
-
-}
-
-.img3 {
-
-    
-    width: 30vw;
-    height: 30vh;
-    position: relative;
-    right: 1450px;
-    top: 75px;
-
-}
-
-.container{
-
-    display: flex;
-    flex-direction: row;
-}
-
+/*Customização do input*/
 input{
 
     margin: 5px;
@@ -47,6 +15,7 @@ input{
 
 }
 
+/*Customização do marcador de texto*/
 mark{
 
     background-color: rgb(230, 171, 9);
@@ -54,13 +23,41 @@ mark{
 
 }
 
+/*Customização da imagem X*/
+.img_X {
 
-.big_box{
+    position: relative;
+    top: 45px;
+    right: 35px;
+    width:1.5vw;
+    height:3vh;
+
+}
+
+/*Customização da logo da fluxo*/
+.img_Fluxo {
+
+    width: 40vw;
+    height: 40vh;
+    position: absolute;
+    top: 50px;
+
+}
+
+/*Customização do container que envolve o site inteiro*/
+.container{
+
+    display: flex;
+    flex-direction: row;
+}
+
+/*Customização da caixa maior da direita*/
+.big_box_dir{
 
     width: 45vw;
     height: 100vh;
     border-radius: 0;
-    margin: 50px;
+    margin: 0 0 0 50px;
     padding: 0;
 
     /* cores */
@@ -78,29 +75,37 @@ mark{
 
 }
 
-.mark_box{
+/*Customização da caixa maior da desquerda*/
+.big_box_esq{
 
-    width: 1.5vw;
-    height: 1.5vh;
+    background-image: url(./Assets/Escritório.jfif);
+    background-repeat: no-repeat;
+    background-size: 115vh 100vw;
+    background-position:center right;
+
+    filter: sepia(70%) saturate(160%);
+
+    width: 50vw;
+    height: 100vh;
     border-radius: 0;
-    border: 2px solid gray;
-    margin: 5px;
     padding: 0;
 
-    /* Cores */
+    /* cores */
+
     background-color: white;
-    border-color: gray;
-    color: white;
+    border-color: white;
+    color: black;
 
     /* FlexBox */
 
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: center top;
     align-items: center;
-
 }
 
+
+/*Customização das caixas menores que incluem um checkbox e um texto*/
 .short_box{
 
     display: flex;
@@ -110,15 +115,16 @@ mark{
 
 }
 
+/*Customização do botão TENHO INTERESSE*/
 .button {
 
     font-size: 200%;
     margin: 35px;
-	background: #e89505;
-	color: white;
+    background: #e89505;
+    color: white;
     border-color: #e89505;
-	height: 50px;
-	width: 30vw;
+    height: 80px;
+    width: 30vw;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
 
 }
